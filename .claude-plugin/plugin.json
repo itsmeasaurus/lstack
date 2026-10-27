@@ -1,6 +1,5 @@
 {
   "name": "lstack",
-  "version": "0.2.0",
   "description": "Liam's Claude Code skills for code review, CI fixes, PR prep, and understanding codebases",
   "author": {
     "name": "Liam"

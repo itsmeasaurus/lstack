@@ -18,11 +18,20 @@ claude plugin install lstack@lstack
 
 Restart Claude Code after installing so the skills load.
 
-## Update
+## Get new skills
 
-```
-/plugin marketplace update lstack
-```
+New skills and changes land whenever this repo gets a new commit. Claude Code
+doesn't pull them for you unless you turn on auto-update, which is off by default
+for marketplaces outside Anthropic's own.
+
+- **Turn on auto-update (once):** run `/plugin`, open the **Marketplaces** tab,
+  select `lstack`, and choose **Enable auto-update**. Claude Code then checks
+  for updates shortly after each session starts.
+- **Or update by hand:** run `claude plugin update lstack@lstack` in your
+  terminal.
+
+Either way, the new version loads in your next session, or after
+`/reload-plugins` in the current one.
 
 ## Skills
 
@@ -103,4 +112,6 @@ description: What it does and when Claude should use it.
 Instructions...
 ```
 
-Bump `version` in `.claude-plugin/plugin.json` so installs pick up the change.
+Commit and push. `plugin.json` has no `version` on purpose: Claude Code uses the
+commit SHA instead, so every push counts as a new version. If you ever add a
+`version`, you must bump it on every release, or users won't get updates.
