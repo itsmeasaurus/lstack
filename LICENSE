@@ -22,8 +22,8 @@ SOFTWARE.
 
 ---
 
-Parts of `how`, `why`, `teach`, `bro`, and `blast-radius` are adapted from
-pstack (https://github.com/cursor/plugins/tree/main/pstack), used under the
+Many skills in `skills/` are adapted from pstack
+(https://github.com/cursor/plugins/tree/main/pstack), used under the
 MIT License:
 
 Copyright (c) 2026 Lauren Tan
