@@ -1,5 +1,6 @@
 {
   "name": "lstack",
+  "description": "Liam's Claude Code skills for code review, CI fixes, PR prep, and understanding codebases",
   "owner": {
     "name": "Liam"
   },
