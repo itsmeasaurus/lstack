@@ -66,6 +66,14 @@ matching question ("why is this check here?", "CI is failing").
 - **Base branch.** The review skills take an optional base branch or PR number.
   Without one they use the PR's base, then the repo's default branch.
 
+## Credits
+
+These skills are inspired by [pstack](https://github.com/cursor/plugins/tree/main/pstack)
+by Lauren Tan, originally a skill stack for Cursor (MIT License). `how`, `why`,
+`teach`, `bro`, and `blast-radius` are adapted from pstack skills of the same name.
+For Claude Code, see also the [pstack-claude](https://github.com/michael-denyer/pstack-claude)
+port by Michael Denyer.
+
 ## Use them as your own
 
 Feel free to copy any skill in `skills/` into your own setup (for example
