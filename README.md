@@ -9,6 +9,15 @@ My personal Claude Code skills, distributed as a plugin marketplace.
 /plugin install lstack@lstack
 ```
 
+Or from your terminal:
+
+```
+claude plugin marketplace add itsmeasaurus/lstack
+claude plugin install lstack@lstack
+```
+
+Restart Claude Code after installing so the skills load.
+
 ## Update
 
 ```
