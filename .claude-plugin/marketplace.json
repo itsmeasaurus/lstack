@@ -1,0 +1,13 @@
+{
+  "name": "lstack",
+  "owner": {
+    "name": "Liam"
+  },
+  "plugins": [
+    {
+      "name": "lstack",
+      "source": "./",
+      "description": "Liam's personal Claude Code skills"
+    }
+  ]
+}
