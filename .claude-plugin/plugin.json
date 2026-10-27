@@ -4,5 +4,7 @@
   "description": "Liam's personal Claude Code skills",
   "author": {
     "name": "Liam"
-  }
+  },
+  "license": "MIT",
+  "repository": "https://github.com/itsmeasaurus/lstack"
 }

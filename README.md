@@ -29,3 +29,9 @@ Instructions...
 ```
 
 Bump `version` in `.claude-plugin/plugin.json` so installs pick up the change.
+
+## Use them as your own
+
+Feel free to copy any skill in `skills/` into your own setup (for example
+`~/.claude/skills/<skill-name>/`) and change it however you like. Everything
+here is under the [MIT License](LICENSE).
